@@ -1,13 +1,9 @@
  
  ###### 
- <p align="justify">
-challenge_portfolio_hannaszczepaniak
-</p>
+ <p align="justify">challenge_portfolio_hannaszczepaniak</p>
  
  # 
- <p algin="jusify">
- Task 1
-</p>
+ <p algin="jusify"> Task 1</p>
 
 ### Subtask 1
 
