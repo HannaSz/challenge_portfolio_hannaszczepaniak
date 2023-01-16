@@ -1,7 +1,7 @@
  
- # |-challenge_portfolio_hannaszczepaniak-|
+ ###### <center>challenge_portfolio_hannaszczepaniak</center>
  
- # |-Task 1-|
+ # <center>Task 1</center>
 
 ### Subtask 1
 
