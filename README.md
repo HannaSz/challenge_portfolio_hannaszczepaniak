@@ -4,9 +4,13 @@
 <div align="center">challenge_portfolio_hannaszczepaniak</div>
 # Spis treści
 *[Subtask 1](#Subtask 1)
+
 *[Subtask 2](#Subtask 2)
+
 *[Subtask 3](#Subtask 3)
+
 *[Subtask 4](#Subtask 4)
+
  
  ###
 <div align="center">Task 1</div>
@@ -24,13 +28,37 @@ Cześć :smiley: Mam na imię Hania i zdecydowałam się na udział w challenge 
 
 #### Subtask 4
 
- Nazwa testowanej aplikacji: .[http://github.com](https://scouts-test.futbolkolektyw.pl/pl) – automatic! [Scouts Panel](http://github.com).
- Aplikacja polega na dodawaniu piłkarzy do zbioru danych, który ma za zadanie wyszukaniu nowych kandydatów dla łowców talentów.
+ Nazwa testowanej aplikacji: .[https://scouts-test.futbolkolektyw.pl/pl](https://scouts-test.futbolkolektyw.pl/pl) – automatic! [Scouts Panel](https://scouts-test.futbolkolektyw.pl/pl).
+ Głównym celem aplikacji dodawaniu piłkarzy do zbioru danych, zarządzania graczami, meczami i tworzeniem raportów.
 
-*Wymagane dane: imię, nazwisko, data urodzenia, pozycja na boisku.*
-Profil gracza można rozszerzyć o informacjach nt. rozegranych meczy.
 
-*Wymagane dane do dodatnia rozegranego meczu: drużyna zawodnika, drużyna przeciwna, zdobyte gole, stracone gole, data meczu.*
-Dla utworzonego meczu można utworzyć raport dla zawodnika oraz wprowadzić wykonane akcje w dowolnym momencie meczu.
- 
+
+Z aplikacji będą korzystać osoby zajmujące się wyszukiwaniem najlepszych graczy do swoich zespołów. Użytkownik będzie miał wyspecyfikowane wymagania co do gracza. 
+Domyślam się, że z aplikacji będą również korzystać trenerzy zespołów piłkarskich, publikując dane swoich zawodników oraz ich osiągniecia. 
  Aplikacja działa zarówno na stronie stacjonarniej jak i na urządzeniach mobilnych. Nie posiada możliwości utworzenia nowego użytkownika. Nie występuje podział na użytkownika i administratora. Tylko zalogowany użytkownik ma możliwość wyświetlenia listy piłkarzy. Zarówno logowanie jak i wylogowanie z aplikacji przebiega sprawnie.
+Użytkownik może podjąć na aplikacji akcje takie jak: 
+1. zalogowanie do systemu
+2. dodatnie gracza
+ Tworząc profil piłkarza :
+*Wymagane dane: imię, nazwisko, data urodzenia, pozycja na boisku.*
+3. dodanie meczy, w których wystąpił
+
+Profil gracza można rozszerzyć o informacje nt. rozegranych meczy.
+
+*Wymagane dane do dodania rozegranego meczu: drużyna zawodnika, drużyna przeciwna, zdobyte gole, stracone gole, data meczu.*
+4. Dla utworzonego meczu można utworzyć raport dla zawodnika oraz wprowadzić wykonane akcje w dowolnym momencie meczu.
+5. Wyświetlenie listy dodanych graczy
+6. Wyszukanie graczy stosując wybrane filtry
+7. wyświetlić ostatnie akcje w aplikacji
+8. zmienić język aplikacji 
+9. wyświetlić liczbę dodanych graczy, meczy, raportów i akcji
+10. edytować profil gracza, dodane raporty i mecze
+11. wylogować się. 
+
+ Aplikacja musi współpracować z innymi platformami:
+  * facebook.com
+  * youtube.com
+  * laczynaspilka.pl
+  * 90minut.pl.
+  
+# Błędy, które znalazłam w aplikacji.
