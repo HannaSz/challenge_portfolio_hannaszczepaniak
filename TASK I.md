@@ -1,13 +1,19 @@
-  
-<p align="justify">challenge_portfolio_hannaszczepaniak</p>
- 
- 
-<h1><p algin="jusify">Task 1</p></h1>
 
-<h2>Subtask 1</h2>
+####  
+
+|-challenge_portfolio_hannaszczepaniak-|
+
+ 
+ ###
+|-Task 1-|
+
+
+###### |-Subtask 1-|
 
 6/10
 
-<h2>Subtask 3</h2>
+##### |-Subtask 3-|
+
+
 
 Cześć :smiley: Mam na imię Hania i zdecydowałam się na udział w challenge portfolio aby zwiększyć swoje szanse na otrzymanie stażu jako tester. Mam nadzieje, że będzie to również dobry sprawdzian dla mnie czy w ogóle nadaję się na testera. Po długiej przerwie w aktywności zawodowej postanowiłam zmienić branżę i ktoś podpowiedział mi abym spróbowała zostać testerem. Jako mama dwójki chłopców w końcu mam szansę pomyśleć w końcu o sobie i po zakończeniu kursu szukam wszelkich możliwości aby móc się rozwijać :smiley: Moc jest ze mną :smiley:
