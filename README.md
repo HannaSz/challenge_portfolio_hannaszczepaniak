@@ -3,15 +3,9 @@
 
 <div align="center">challenge_portfolio_hannaszczepaniak</div>
 
-# Spis treści
 
-*[Subtask 1](#Subtask 1)
 
-*[Subtask 2](#Subtask 2)
 
-*[Subtask 3](#Subtask 3)
-
-*[Subtask 4](#Subtask 4)
 
  
  ###
@@ -42,12 +36,14 @@ Użytkownik może podjąć na aplikacji akcje takie jak:
 1. zalogowanie do systemu
 2. dodatnie gracza
  Tworząc profil piłkarza :
-*Wymagane dane: imię, nazwisko, data urodzenia, pozycja na boisku.*
+ 
+ *Wymagane dane: imię, nazwisko, data urodzenia, pozycja na boisku.*
+   
 3. dodanie meczy, w których wystąpił
 
   Profil gracza można rozszerzyć o informacje nt. rozegranych meczy.
  
-    *Wymagane dane do dodania rozegranego meczu: drużyna zawodnika, drużyna przeciwna, zdobyte gole, stracone gole, data meczu.*
+  *Wymagane dane do dodania rozegranego meczu: drużyna zawodnika, drużyna przeciwna, zdobyte gole, stracone gole, data meczu.*
 
 4. Dla utworzonego meczu można utworzyć raport dla zawodnika oraz wprowadzić wykonane akcje w dowolnym momencie meczu.
 5. Wyświetlenie listy dodanych graczy
@@ -63,8 +59,12 @@ Użytkownik może podjąć na aplikacji akcje takie jak:
   * youtube.com
   * laczynaspilka.pl
   * 90minut.pl.
+
+
   
 # Błędy, które znalazłam w aplikacji.
+
+
 
 | utworzenie profilu gracza | - imię i nazwisko można wyrazić cyframi - można dodać datę urodzenia, która się dopiero odbędzie lub baaardzo baardzo odległą - można dodać niezliczoną liczbę kont o takich samych danych - wagę, wzrost i numer telefonu można dodać ze znakiem (-) - waga musi być zaokrąglona do jedności - po zmianie języka na angielski zmieniają się nazwy województw [?]                                                                                                                                                                                      |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
