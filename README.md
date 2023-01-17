@@ -5,7 +5,7 @@
 
  
  ###
-Task 1
+<div align="center">Task 1</div>
 
 
 ##### Subtask 1
