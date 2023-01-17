@@ -1,18 +1,18 @@
 
 ####  
 
-|-challenge_portfolio_hannaszczepaniak-|
+<div align="center">challenge_portfolio_hannaszczepaniak</div>
 
  
  ###
-|-Task 1-|
+Task 1
 
 
-###### |-Subtask 1-|
+###### Subtask 1
 
 6/10
 
-##### |-Subtask 3-|
+##### Subtask 3
 
 
 
