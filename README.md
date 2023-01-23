@@ -20,7 +20,7 @@
 
 
 
-Cześć :smiley: Mam na imię Hania i zdecydowałam się na udział w challenge portfolio aby zwiększyć swoje szanse na otrzymanie stażu jako tester. Mam nadzieje, że będzie to również dobry sprawdzian dla mnie czy w ogóle nadaję się na testera. Po długiej przerwie w aktywności zawodowej postanowiłam zmienić branżę i ktoś podpowiedział mi abym spróbowała zostać testerem. Jako mama dwójki chłopców w końcu mam szansę pomyśleć w końcu o sobie i po zakończeniu kursu szukam wszelkich możliwości aby móc się rozwijać :smiley: Moc jest ze mną :smiley:
+Cześć :smiley: Mam na imię Hania i zdecydowałam się na udział w challenge portfolio aby zwiększyć swoje szanse na otrzymanie stażu jako tester. Mam nadzieje, że będzie to również dobry sprawdzian dla mnie czy w ogóle nadaję się na testera. Po długiej przerwie w aktywności zawodowej postanowiłam zmienić branżę i ktoś podpowiedział mi abym spróbowała zostać testerem. Jako mama dwójki chłopców w końcu mam szansę pomyśleć o sobie i po zakończeniu kursu szukam wszelkich możliwości aby móc się rozwijać :smiley: Moc jest ze mną :smiley:
 
 #### Subtask 4
 
