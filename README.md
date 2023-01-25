@@ -73,6 +73,34 @@ Użytkownik może podjąć na aplikacji akcje takie jak:
 | edycja profilu gracza     | - Wszystkie dane gracza są edytowalne - nie można usunąć informacji z profilu - przycisk 'clear' nie działa - nie można usunąć profilu gracza                                                                                                                                                                                                                                                                                                                                                                                                          |
 | wyszukiwanie gracza       | - po usunięciu nie interesujących mnie tabel w wyszukiwarce , przełączając strony użytkowników dodają się tabele z wiekiem i recenzją -                                                                                                                                                                                                                                                                                                                                                                                                                |
 | działanie strony          | - bardzo powolne przechodzenie ze strony głównej do listy graczy                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-TASK 2
+
+
+
+
+###
+<div align="center">Task 2</div>
+
+
+##### Subtask 1
+
+https://docs.google.com/document/d/16_nGVVk2byoa7meJs0pPmOmKIpRMDukBFEEnldvVCPE/edit
+
+
+##### Subtask 2
+
+
+https://docs.google.com/spreadsheets/d/1W17lrn_Gx12ctNDra2_HKy0_xS9jhy24JJ7bNGYy708/edit#gid=0
+
+
+##### Subtask 3
+
+
+Test case'y pozwalają usystematyzować testy, posiadać kontrolę nad wybieranych przypadkach. Mamy pewność, że nie wykonamy dwa razy tego samego testu. 
+
+##### Subtask 4
+
+https://docs.google.com/spreadsheets/d/1fa7t51pYex-MrftKfSwjb7cubFKLw9qcVA5JSbu604Y/edit#gid=0
+
+
 
 https://drive.google.com/drive/u/0/my-drive
