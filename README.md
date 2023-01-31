@@ -104,3 +104,24 @@ https://docs.google.com/spreadsheets/d/1fa7t51pYex-MrftKfSwjb7cubFKLw9qcVA5JSbu6
 
 
 https://drive.google.com/drive/u/0/my-drive
+
+
+
+
+###
+<div align="center">Task 2</div>
+
+
+
+##### Subtask 1
+
+https://docs.google.com/spreadsheets/d/19azemB26BB0SicHVTTD5DVa1N--SBncKX9_LzyW4cPw/edit#gid=0
+
+
+##### Subtask 2
+
+https://docs.google.com/spreadsheets/d/1NI6D71nCyZ7Ha78ny5dKX5oOf_WGBOYQ1jnhPka1DIc/edit#gid=0
+
+##### Subtask 3
+
+https://docs.google.com/document/d/1OKqi7ABoowZv24XhzCQQk1T0kmRVtQ8-vGNA5lAbZMs/edit
