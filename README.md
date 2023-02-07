@@ -125,3 +125,19 @@ https://docs.google.com/spreadsheets/d/1NI6D71nCyZ7Ha78ny5dKX5oOf_WGBOYQ1jnhPka1
 ##### Subtask 3
 
 https://docs.google.com/document/d/1OKqi7ABoowZv24XhzCQQk1T0kmRVtQ8-vGNA5lAbZMs/edit
+
+
+
+
+###
+<div align="center">Task 4</div>
+
+##### Subtask 1 & 2
+
+https://docs.google.com/spreadsheets/d/1Qr0aAr7XM2uhbKc0_DD819VpkKFUC05TguY0RVvv8q8/edit#gid=0
+
+##### Subtask 3
+
+Aplikacja służy do przeglądania zawartości, dodawaniem ogłoszeń płatnych bądź bezpłatnych, dokonywaniu transakcji zakupu lub sprzedaży. Użytkownikiem aplikacji jest osoba fizyczna, osoba prawna lub jednostka nie posiadająca osobowości prawnej , której ustawa przyznaje zdolność prawną. Aplikacja nie posiada funkcji "Szybkiego samouczka" określającego zasady funkcjonowania apliakcji dla nowych użytkowników, aplikacja działa szybko, przycisk do uzyskania pomocy (kontaktu) jest widoczny i aktywny w aplikacji. Wyszukiwarka działa poprawnie, w aplikacji po wyszukiwaniach zapisują się poprzednie wyszukiwania i sugeruje po ponownym włączeniu aplikacji wyniki z poprzedniego wyszukiwania. Do aplikacji można zalogować się poprzez e-mail i hasło oraz poprzez portale facebook.com i google.com. Nie można zmienić języka aplikacji , co uważam za błąd. Nadal też jednak uważam, że wyszukiwarka powinna od razu rozwinąć panel z dodatkowymi opcjami i filtrami. 
+Testy aplikacji natywnych wymagają więcej pracy, a testowanie aplikacji internetowej pozwala korzystać zDevTools, co ułatwia znajdywanie błędów.
+
