@@ -154,28 +154,37 @@ Testy aplikacji natywnych wymagają więcej pracy, a testowanie aplikacji intern
 
 SELECT * FROM actors ORDER BY actors.surname
 
-
 ![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.1.jpg) 
 
  2. Wyświetl film, który powstał w 2019 roku
 
 SELECT* FROM movies WHERE YEAR_OF_PRODUCTION = 2019
 
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.2.jpg)
+
  3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem
 
 SELECT* FROM movies WHERE YEAR_OF_PRODUCTION >1900 AND YEAR_OF_PRODUCTION <1999
+
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.3.jpg)
 
  4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
 
 SELECT title, price FROM `movies` WHERE price<7
 
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.4.jpg)
+
  5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN
 
 SELECT * FROM `actors`where actor_id>=4 and actor_id<=7
 
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.5.jpg)
+
  6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny
 
 SELECT * FROM `customers` WHERE customer_id in (2,4,6)
+
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.6.jpg)
 
 SELECT `customer_id`,`name`,`surname`,`email` FROM `customers` WHERE customer_id='2' OR customer_id='4' OR customer_id='6'
 
@@ -183,17 +192,25 @@ SELECT `customer_id`,`name`,`surname`,`email` FROM `customers` WHERE customer_id
 
 SELECT * FROM `customers` WHERE customer_id in (1,3,5)
 
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.7.jpg)
+
  8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”
 
 SELECT * FROM `actors` WHERE `name` LIKE 'An%'
+
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.8.jpg)
 
  9. Wyświetl dane klienta, który nie ma podanego adresu email.
 
 SELECT * FROM `customers` WHERE `email` IS NULL
 
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.9.jpg)
+
 10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id
 
 Select * FROM movies WHERE price>9 OR movie_id>=8 and movie_id<=8
+
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.10.jpg)
 
 
 
