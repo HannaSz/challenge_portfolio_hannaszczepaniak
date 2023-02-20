@@ -212,5 +212,65 @@ Select * FROM movies WHERE price>9 OR movie_id>=8 and movie_id<=8
 
 ![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.10.jpg)
 
+11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd
 
+UPDATE customers SET surname='Miler' WHERE `customer_id`=3;
 
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.11.jpg)
+
+12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
+
+SELECT name, email FROM customers AS c JOIN sale AS s ON c.customer_id = s.customer_id WHERE movie_id=4
+
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.12.jpg)
+
+13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+
+UPDATE customers SET email= 'pati@mail.com' WHERE customer_id=4;
+
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.13.jpg)
+
+14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+
+SELECT name, surname, title FROM customers c INNER JOIN sale s ON c.customer_id=s.customer_id INNER JOIN movies m ON s.movie_id=m.movie_id
+
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.14.jpg)
+
+15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+
+ALTER TABLE customers
+ADD pseudonym varchar(100)
+
+update customers set pseudonym= CONCAT (LEFT(name,2), RIGHT (surname,1))
+
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.15.jpg)
+
+16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+
+SELECT DISTINCT title FROM sale AS s INNER JOIN movies AS m ON s.movie_id=m.movie_id
+
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.16.jpg)
+
+17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+
+SELECT name FROM actors UNION SELECT name FROM customers ORDER BY name
+
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.17.jpg)
+
+18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
+
+select title, price+'2,5' AS price from movies where year_of_production>=2000
+
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.18.jpg)
+
+19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.
+
+SELECT a.name, a.surname, m.title FROM actors a JOIN cast c on a.actor_id=c.actor_id JOIN movies m on c.movie_id=m.movie_id WHERE a.actor_id=4
+
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.19.jpg)
+
+20. Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
+
+insert into customers (customer_id,name,surname,email,pseudonym) VALUES ('7','Honia','Stuczka-Kucharska','honia@email.com','Hoa')
+
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.20.jpg)
