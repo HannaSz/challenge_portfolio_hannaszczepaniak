@@ -216,7 +216,7 @@ Select * FROM movies WHERE price>9 OR movie_id>=8 and movie_id<=8
 
 UPDATE customers SET surname='Miler' WHERE `customer_id`=3;
 
-![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.11.jpg)
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/27dfc627b7bc6b15d1b9c52fb88f07ebc0363809/5.11.jpg)
 
 12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
 
