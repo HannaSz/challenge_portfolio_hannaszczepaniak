@@ -13,7 +13,7 @@
 * [Task 6](#Task 6)
 
  
- ## <div align="center">Task 1</div>
+ ## Task 1
 
 
 ##### Subtask 1
