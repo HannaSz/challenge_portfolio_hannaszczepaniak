@@ -13,8 +13,7 @@
 * [Task 6](#Task 6)
 
  
- ###
-<div align="center">Task 1</div>
+ ## <div align="center">Task 1</div>
 
 
 ##### Subtask 1
@@ -67,7 +66,7 @@ Użytkownik może podjąć na aplikacji akcje takie jak:
 
 
   
-# Błędy, które znalazłam w aplikacji
+### Błędy, które znalazłam w aplikacji
 
 
 | utworzenie profilu gracza | - imię i nazwisko można wyrazić cyframi - można dodać datę urodzenia, która się dopiero odbędzie lub baaardzo baardzo odległą - można dodać niezliczoną liczbę kont o takich samych danych - wagę, wzrost i numer telefonu można dodać ze znakiem (-) - waga musi być zaokrąglona do jedności - po zmianie języka na angielski zmieniają się nazwy województw [?]                                                                                                                                                                                      |
@@ -81,8 +80,7 @@ Użytkownik może podjąć na aplikacji akcje takie jak:
 
 
 
-###
-<div align="center">Task 2</div>
+## <div align="center">Task 2</div>
 
 
 ##### Subtask 1
@@ -112,8 +110,7 @@ https://drive.google.com/drive/u/0/my-drive
 
 
 
-###
-<div align="center">Task 3</div>
+## <div align="center">Task 3</div>
 
 
 
@@ -133,8 +130,7 @@ https://docs.google.com/document/d/1OKqi7ABoowZv24XhzCQQk1T0kmRVtQ8-vGNA5lAbZMs/
 
 
 
-###
-<div align="center">Task 4</div>
+## <div align="center">Task 4</div>
 
 ##### Subtask 1 & 2
 
@@ -147,8 +143,7 @@ Testy aplikacji natywnych wymagają więcej pracy, a testowanie aplikacji intern
 
 
 
-###
-<div align="center">Task 5</div>
+## <div align="center">Task 5</div>
 
 ##### Subtask 3
 
@@ -214,8 +209,7 @@ Select * FROM movies WHERE price>9 OR movie_id>=8 and movie_id<=8
 
 ![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.10.jpg)
 
-###
-<div align="center">Task 6</div>
+## <div align="center">Task 6</div>
 
 
 ##### Subtask 1
@@ -257,31 +251,31 @@ update customers set pseudonym= CONCAT (LEFT(name,2), RIGHT (surname,1))
 
 SELECT DISTINCT title FROM sale AS s INNER JOIN movies AS m ON s.movie_id=m.movie_id
 
-![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.16.jpg)
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/27dfc627b7bc6b15d1b9c52fb88f07ebc0363809/5.16.jpg)
 
 17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
 
 SELECT name FROM actors UNION SELECT name FROM customers ORDER BY name
 
-![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.17.jpg)
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/27dfc627b7bc6b15d1b9c52fb88f07ebc0363809/5.17.jpg)
 
 18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
 
 select title, price+'2,5' AS price from movies where year_of_production>=2000
 
-![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.18.jpg)
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/27dfc627b7bc6b15d1b9c52fb88f07ebc0363809/5.18.jpg)
 
 19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.
 
 SELECT a.name, a.surname, m.title FROM actors a JOIN cast c on a.actor_id=c.actor_id JOIN movies m on c.movie_id=m.movie_id WHERE a.actor_id=4
 
-![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.19.jpg)
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/27dfc627b7bc6b15d1b9c52fb88f07ebc0363809/5.19.jpg)
 
 20. Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
 
 insert into customers (customer_id,name,surname,email,pseudonym) VALUES ('7','Honia','Stuczka-Kucharska','honia@email.com','Hoa')
 
-![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.20.jpg)
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/27dfc627b7bc6b15d1b9c52fb88f07ebc0363809/5.20.jpg)
 
 
 ##### Subtask 2
