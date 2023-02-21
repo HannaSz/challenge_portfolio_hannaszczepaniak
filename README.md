@@ -277,5 +277,8 @@ ADD pseudonym varchar(100)`
 
 ##### Subtask 2
 
+12/15 
 
 ##### Subtask 3
+
+[Portfolio](https://github.com/HannaSz/PORTFOLIO-]
