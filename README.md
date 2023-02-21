@@ -4,8 +4,13 @@
 <div align="center">challenge_portfolio_hannaszczepaniak</div>
 
 
-
-
+## Table of contents
+* [Task 1](#Task 1)
+* [Task 2](#Task 2)
+* [Task 3](#Task 3)
+* [Task 4](#Task 4)
+* [Task 5](#Task 5)
+* [Task 6](#Task 6)
 
  
  ###
@@ -62,10 +67,7 @@ Użytkownik może podjąć na aplikacji akcje takie jak:
 
 
   
-# Błędy, które znalazłam w aplikacji.
-
-
-
+# Błędy, które znalazłam w aplikacji
 
 
 | utworzenie profilu gracza | - imię i nazwisko można wyrazić cyframi - można dodać datę urodzenia, która się dopiero odbędzie lub baaardzo baardzo odległą - można dodać niezliczoną liczbę kont o takich samych danych - wagę, wzrost i numer telefonu można dodać ze znakiem (-) - waga musi być zaokrąglona do jedności - po zmianie języka na angielski zmieniają się nazwy województw [?]                                                                                                                                                                                      |
@@ -212,6 +214,12 @@ Select * FROM movies WHERE price>9 OR movie_id>=8 and movie_id<=8
 
 ![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.10.jpg)
 
+###
+<div align="center">Task 6</div>
+
+
+##### Subtask 1
+
 11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd
 
 UPDATE customers SET surname='Miler' WHERE `customer_id`=3;
@@ -222,19 +230,19 @@ UPDATE customers SET surname='Miler' WHERE `customer_id`=3;
 
 SELECT name, email FROM customers AS c JOIN sale AS s ON c.customer_id = s.customer_id WHERE movie_id=4
 
-![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.12.jpg)
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/27dfc627b7bc6b15d1b9c52fb88f07ebc0363809/5.12.jpg)
 
 13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
 
 UPDATE customers SET email= 'pati@mail.com' WHERE customer_id=4;
 
-![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.13.jpg)
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/27dfc627b7bc6b15d1b9c52fb88f07ebc0363809/5.13.jpg)
 
 14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
 
 SELECT name, surname, title FROM customers c INNER JOIN sale s ON c.customer_id=s.customer_id INNER JOIN movies m ON s.movie_id=m.movie_id
 
-![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.14.jpg)
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/27dfc627b7bc6b15d1b9c52fb88f07ebc0363809/5.14.jpg)
 
 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
 
@@ -243,7 +251,7 @@ ADD pseudonym varchar(100)
 
 update customers set pseudonym= CONCAT (LEFT(name,2), RIGHT (surname,1))
 
-![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.15.jpg)
+![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/27dfc627b7bc6b15d1b9c52fb88f07ebc0363809/5.15.jpg)
 
 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 
@@ -274,3 +282,9 @@ SELECT a.name, a.surname, m.title FROM actors a JOIN cast c on a.actor_id=c.acto
 insert into customers (customer_id,name,surname,email,pseudonym) VALUES ('7','Honia','Stuczka-Kucharska','honia@email.com','Hoa')
 
 ![alt text](https://github.com/HannaSz/challenge_portfolio_hannaszczepaniak/blob/e0c86ffe6d68e8ca75b37aed1ba35b5797715ff4/5.20.jpg)
+
+
+##### Subtask 2
+
+
+##### Subtask 3
