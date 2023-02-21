@@ -5,12 +5,12 @@
 
 
 ## Table of contents
-* [Task 1](#Task 1)
-* [Task 2](#Task 2)
-* [Task 3](#Task 3)
-* [Task 4](#Task 4)
-* [Task 5](#Task 5)
-* [Task 6](#Task 6)
+* [Task 1](#Task-1)
+* [Task 2](#Task-2)
+* [Task 3](#Task-3)
+* [Task 4](#Task-4)
+* [Task 5](#Task-5)
+* [Task 6](#Task-6)
 
  
  ## Task 1
@@ -66,7 +66,7 @@ Użytkownik może podjąć na aplikacji akcje takie jak:
 
 
   
-### Błędy, które znalazłam w aplikacji
+**Błędy, które znalazłam w aplikacji**
 
 
 | utworzenie profilu gracza | - imię i nazwisko można wyrazić cyframi - można dodać datę urodzenia, która się dopiero odbędzie lub baaardzo baardzo odległą - można dodać niezliczoną liczbę kont o takich samych danych - wagę, wzrost i numer telefonu można dodać ze znakiem (-) - waga musi być zaokrąglona do jedności - po zmianie języka na angielski zmieniają się nazwy województw [?]                                                                                                                                                                                      |
@@ -85,13 +85,13 @@ Użytkownik może podjąć na aplikacji akcje takie jak:
 
 ##### Subtask 1
 
-https://docs.google.com/document/d/16_nGVVk2byoa7meJs0pPmOmKIpRMDukBFEEnldvVCPE/edit
+[Subtask 1](https://docs.google.com/document/d/16_nGVVk2byoa7meJs0pPmOmKIpRMDukBFEEnldvVCPE/edit)
 
 
 ##### Subtask 2
 
 
-https://docs.google.com/spreadsheets/d/1W17lrn_Gx12ctNDra2_HKy0_xS9jhy24JJ7bNGYy708/edit#gid=0
+[Subtask 2](https://docs.google.com/spreadsheets/d/1W17lrn_Gx12ctNDra2_HKy0_xS9jhy24JJ7bNGYy708/edit#gid=0)
 
 
 ##### Subtask 3
@@ -101,11 +101,8 @@ Test case'y pozwalają usystematyzować testy, posiadać kontrolę nad wybierany
 
 ##### Subtask 4
 
-https://docs.google.com/spreadsheets/d/1fa7t51pYex-MrftKfSwjb7cubFKLw9qcVA5JSbu604Y/edit#gid=0
+[Subtask 4](https://docs.google.com/spreadsheets/d/1fa7t51pYex-MrftKfSwjb7cubFKLw9qcVA5JSbu604Y/edit#gid=0)
 
-
-
-https://drive.google.com/drive/u/0/my-drive
 
 
 
@@ -116,16 +113,16 @@ https://drive.google.com/drive/u/0/my-drive
 
 ##### Subtask 1
 
-https://docs.google.com/spreadsheets/d/19azemB26BB0SicHVTTD5DVa1N--SBncKX9_LzyW4cPw/edit#gid=0
+[Subtask 1](https://docs.google.com/spreadsheets/d/19azemB26BB0SicHVTTD5DVa1N--SBncKX9_LzyW4cPw/edit#gid=0)
 
 
 ##### Subtask 2
 
-https://docs.google.com/spreadsheets/d/1NI6D71nCyZ7Ha78ny5dKX5oOf_WGBOYQ1jnhPka1DIc/edit#gid=0
+[Subtask 2](https://docs.google.com/spreadsheets/d/1NI6D71nCyZ7Ha78ny5dKX5oOf_WGBOYQ1jnhPka1DIc/edit#gid=0)
 
 ##### Subtask 3
 
-https://docs.google.com/document/d/1OKqi7ABoowZv24XhzCQQk1T0kmRVtQ8-vGNA5lAbZMs/edit
+[Subtask 3](https://docs.google.com/document/d/1OKqi7ABoowZv24XhzCQQk1T0kmRVtQ8-vGNA5lAbZMs/edit)
 
 
 
@@ -134,7 +131,7 @@ https://docs.google.com/document/d/1OKqi7ABoowZv24XhzCQQk1T0kmRVtQ8-vGNA5lAbZMs/
 
 ##### Subtask 1 & 2
 
-https://docs.google.com/spreadsheets/d/1Qr0aAr7XM2uhbKc0_DD819VpkKFUC05TguY0RVvv8q8/edit#gid=0
+[Subtask 1&2](https://docs.google.com/spreadsheets/d/1Qr0aAr7XM2uhbKc0_DD819VpkKFUC05TguY0RVvv8q8/edit#gid=0)
 
 ##### Subtask 3
 
